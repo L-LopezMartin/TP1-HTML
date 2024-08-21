@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctico 1 - Leandro López</title>
+</head>
+<body>
+    <header>
+        <p>Desarrollo de Software - TP1 HTML - Leandro López 3k09</p>
+    </header>
+
+    <section id="primera"> <!-- 1- Estructura básica -->
+        <h1>1- Estructura básica del documento html</h1>
+        <p> Este es un documento HTML con una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título</p>
+        <hr>
+    </section>
+
+    <section> <!-- 2- Encabezados y propiedades del texto -->
+        <h1>2- Encabezados y propiedades del texto </h1>
+        <h1 style="font-weight: normal;">Este es un h1 con font weight normal</h1>
+        <h2 style="font-style: italic;">Este es un h2 con letra cursiva</h2>
+        <h3 style="text-decoration: underline;">Este es un h3 con letra subrayada</h3>
+        <h4 style="color: grey;">Este es un h4 que tiene <span style="color: aqua;">partes del texto</span> <span style="color: violet;">en otro color</span></h4>
+        <h5 style="text-align: right;">Este es un h5 alineado a derecha</h5>
+        <h6 style="text-align: center;">Este es un h6 alineado al centro</h6>
+        <hr>
+    </section>
+
+    <section> <!-- 3- Divisiones y agrupación de contenido -->
+        <h1>3- Divisiones y agrupación de contenido</h1>
+        <div>
+            <h2>División 1</h2>
+            <p>Contenido de la primera divisíon, agrupada en un div</p>
+        </div>
+        <div>
+            <h2>División 2</h2>
+            <p>Contenido de la segunda divisíon, agrupada en un div</p>
+        </div>
+        <hr>
+    </section>
+
+    <section> <!-- 4- Enlaces y listas -->
+        <h1>4- Enlaces y listas</h1>
+        <h2>Lista ordenada con enlaces</h2>
+        <ol>
+            <li><a href="https://www.w3schools.com">Link a la página de W3 Schools</a></li>
+            <li><a href="#primera">Link a la primera sección</a></li>
+            <li><a href="#formularios">Link a los formularios</a></li>
+        </ol>
+        <h2>Lista desordenada - Sánguche de milanesa</h2>
+        <ul>
+            <li>Pan</li>
+            <li>Tomate</li>
+            <li>Queso</li>
+            <li>Milanesa</li>
+            <li>Mayonesa</li>
+            <li>Pan</li>
+        </ul>
+        <hr>
+    </section>
+
+    <section> <!-- 5- Elementos multimedia -->
+        <h1>5- Elementos multimedia</h1>
+        <div>
+            <div>
+                <h2>Imagen</h2>
+                <img width="300px" height="200px" src="media/Ardilla.jpg" alt="Una ardilla"/>
+            </div>
+            <div>
+                <h2>Video</h2>
+                <video width="600px" height="300px" src="media/Vaca cubana.mp4" alt="Una solitaria vaca cubana" controls loop autoplay muted></video>
+            </div>
+            <div>
+                <h2>Audio</h2>
+                <audio src="media/correct.mp3" controls></audio>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <section> <!-- 6 -Tablas -->
+        <h1>6- -Tablas</h1>
+        <table border="1px solid black">
+            <thead>
+                <tr>
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Dato 1</th>
+                    <th>Dato 2</th>
+                </tr>
+                <tr>
+                    <th>Dato 3</th>
+                    <th>Dato 4</th>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+    </section>
+
+    <section id="formularios"> <!-- 7- Fomrularios -->
+        <h1>7- Formularios</h1>
+        <form action="">
+            <label for="nombre"></label>
+            <input type="text" name="nombre" maxlength="30" placeholder="Tu nombre">
+            <label for="correo"></label>
+            <input type="email" name="correo" placeholder="Tu correo">
+            <label for="mensaje"></label>
+            <input type="text" name="mensaje" placeholder="Tu mensaje">
+            <input type="submit">
+        </form>
+        <hr>
+    </section>
+
+    <section> <!-- 8- Semántica en HTML -->
+        <!-- No hay nada que poner acá -->
+    </section>
+
+    <Footer>
+        <p>Desarrollo de Software - TP1 HTML - Leandro López 3k09</p>
+    </Footer>
+</body>
+</html>
